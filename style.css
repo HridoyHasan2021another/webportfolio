@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding:0;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -6,53 +9,87 @@ body{
     width:960px;
     height:auto;
     margin:0 auto;
-}
-section{
-    height:500px;
     overflow:hidden;
 }
-h1{
+.nav{
+    padding-right:150px;
+    overflow:hidden;
+}
+.nav a{
+    display:inline-block;
+    float:right;;
+    text-decoration:none;
+    margin:10px;
+    color:black;
+}
+.top-h {
+    font-weight:bold;
     font-size:50px;
 }
-.name-color{
-    color: orange;
+
+.colored{
+    color:orange;
 }
+.button{
+    text-decoration:none;
+    padding:14px 30px;
+    background:red;
+    border-radius:7px;
+    color:white;;
+    margin-top:50px;
+    display:inline-block;
+}
+
 .half-width{
-    width:40%;
+    width:45%;
     float:left;
-    margin-left:5%;
-    padding-left:2%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+section{
+    overflow:hidden;
 }
 .half-width img{
-    width:100%;
+    width:70%;
+    height:70%;
+    margin-left:50px;
 }
-.top-banner{
-
-    background-repeat: no-repeat;
-    height:500px;
+.about-h{
+    font-size:30px;
+    margin-bottom:50px;
 }
-.link-button{
-    text-decoration:none;
-    background: red;
-    padding:10px 20px;
-    border-radius:5px;
-    color:white;
-    font-weight:bold;
-}
-.about{
-
-    background-repeat: no-repeat;
-    background-position:right;
-    height:500px;
-}
-
-.project-heading{
+.project-h{
     text-align:center;
-    font-weight:bold;
+    padding:70px 0 50px;
+    font-size:40px;
+
 }
+.project{
+    margin-bottom:400px;
+}
+
 .box{
-    width:25%;
+    width:30%;
+    margin:0 auto;
+    text-align:center;
+
 }
+.left{
+    display:inline-block;
+    
+}
+
+.group{
+    background-image: url(images/Group_33094_1.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+}
+
 footer{
-    text-align: center;
+    padding:50px;
+    text-align:center;
 }
+
+
